@@ -3,3 +3,6 @@ You must join our [Roblox Group](https://www.roblox.com/communities/35457597) to
 
 # How do I edit this repository?
 To edit this repository, ask someone who is already a collaborator on the Discord to give you collaborator.
+
+# How is this repository structured?
+Scripts and other files for our experiences can be found in their respectively named directories.
