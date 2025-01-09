@@ -7,10 +7,11 @@ local Info = TweenInfo.new(1, Enum.EasingStyle.Back, Enum.EasingDirection.Out, 0
 UIS.InputBegan:Connect(function(Input, gameProcessed)
 if gameProcessed then return end
 --exits function if player is typing 
-	if  Input.KeyCode == Enum.KeyCode.E and Cam.FieldOfView>=30 then
-		Cam.FieldOfView -= 15 
-	else 
-	Cam.FieldOfView = 70
+	if  Input.KeyCode == Enum.KeyCode.E then
+		Cam.FieldOfView -= 15
+	end
+	if Cam.FieldOfView<=1 then
+		Cam.FieldOfView = 70
 	end
 end)
 
